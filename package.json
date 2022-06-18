@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-microblog",
+  "name": "nextjs-blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
-    "matter": "^0.2.0",
-    "next": "12.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
-    "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6"
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
   }
 }
