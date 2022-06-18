@@ -18,6 +18,7 @@ function Layout({ children, home }) {
             <img
               src="/images/profile.png"
               className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`}
+              alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
@@ -26,6 +27,7 @@ function Layout({ children, home }) {
             <img
               src="/images/profile.png"
               className={`${utilStyles.borderCircle}`}
+              alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
