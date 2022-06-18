@@ -42,7 +42,7 @@ export default function Home({ allPosrData }) {
           {allPosrData.map(({ id, title, date, thumbnail }) => (
             <article key={id}>
               <Link href={`/posts/${id}`}>
-                <img src={thumbnail} className={styles.thumbnailImage} />
+                <img src={thumbnail} className={styles.thumbnailImage} alt="" />
               </Link>
               <Link href={`/posts/${id}`}>
                 <a className={utilStyle.boldText}>{title}</a>
