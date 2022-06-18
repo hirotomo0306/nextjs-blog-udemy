@@ -41,10 +41,10 @@ export default function Home({ allPosrData }) {
         <div className={styles.grid}>
           {allPosrData.map(({ id, title, date, thumbnail }) => (
             <article key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/posts/${id}`} passHref>
                 <img src={thumbnail} className={styles.thumbnailImage} alt="" />
               </Link>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/posts/${id}`} passHref>
                 <a className={utilStyle.boldText}>{title}</a>
               </Link>
               <br />
